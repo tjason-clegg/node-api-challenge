@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Express provides routing andprovides a way to break the application into different request handlers for each URL and HTTP method combination.
+
 - [ ] Describe Middleware?
+
+Express middleware are functions that execute during a request to the Express server. These function must be in order to perform different operations such as logging or route handlers and some doesn't have to.
 
 - [ ] Describe a Resource?
 
+Resources are databases that can be accessed through an API call. CRUD operations may be used.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+Status 200.
+
 - [ ] How can we partition our application into sub-applications?
+
+We can create a data folder with all our different resources. We can create a router folder to hold a different router file for each resource.
 
 ## Minimum Viable Product
 
