@@ -73,6 +73,8 @@ router.delete("/:id", validateActionID, async (req, res) => {
   }
 });
 
+//// CUSTOM MIDDLEWARE ////
+
 async function validateProjectID(req, res, next) {
   const { id } = req.params;
   try {
